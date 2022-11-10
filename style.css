@@ -1,0 +1,26 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+/* ****************************Se le Agrega un background distinto************************************ */
+background-image: url(./assets/fondo.jpg);
+/* **********************************************************l************************************ */
+}
+
+#canvas-1 {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* ****************************Se le Agrega tamaño al id canvas************************************ */
+    width: 1800px;
+    height: 800px;
+/* **********************************************************l************************************ */
+
+}
+
+#layer1, #layer2, #layer3, #layer4, #player, #angler1, #angler2, #lucky{
+    display: none;
+}
